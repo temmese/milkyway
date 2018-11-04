@@ -1,0 +1,6 @@
+framework module Pods_MilkyWayApp {
+  umbrella header "Pods-MilkyWayApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

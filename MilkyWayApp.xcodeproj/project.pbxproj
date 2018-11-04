@@ -7,25 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1834C4BD96A558FF893C9BEB /* Pods_MilkyWayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FBBA456D7FAD8156D6C9EF /* Pods_MilkyWayApp.framework */; };
 		E0177CD6218F22D50054989A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0177CD5218F22D50054989A /* AppDelegate.swift */; };
-		E0177CD8218F22D50054989A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0177CD7218F22D50054989A /* ViewController.swift */; };
+		E0177CD8218F22D50054989A /* MilkyWayDetailDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0177CD7218F22D50054989A /* MilkyWayDetailDetailViewController.swift */; };
 		E0177CDB218F22D50054989A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0177CD9218F22D50054989A /* Main.storyboard */; };
 		E0177CDD218F22D60054989A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0177CDC218F22D60054989A /* Assets.xcassets */; };
 		E0177CE0218F22D60054989A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0177CDE218F22D60054989A /* LaunchScreen.storyboard */; };
+		E0177CE8218F230B0054989A /* MilkyWayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0177CE7218F230B0054989A /* MilkyWayTableViewController.swift */; };
+		E0177CEA218F25950054989A /* MilkyWayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0177CE9218F25950054989A /* MilkyWayTableViewCell.swift */; };
+		E0177CEC218F28C60054989A /* NASAResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0177CEB218F28C60054989A /* NASAResponse.swift */; };
+		E0177CEE218F2A2E0054989A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0177CED218F2A2E0054989A /* NetworkManager.swift */; };
+		E0711F14218F6DDC00428134 /* MilkyWayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0711F13218F6DDC00428134 /* MilkyWayAppUITests.swift */; };
+		E0711F1C218F75F600428134 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0711F1B218F75F600428134 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E0711F16218F6DDC00428134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0177CCA218F22D50054989A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0177CD1218F22D50054989A;
+			remoteInfo = MilkyWayApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		36B01196F35535AD2AD095AF /* Pods-MilkyWayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkyWayApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkyWayApp/Pods-MilkyWayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4F59BBC3F608D81BF5837347 /* Pods-MilkyWayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkyWayApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkyWayApp/Pods-MilkyWayApp.release.xcconfig"; sourceTree = "<group>"; };
+		A2FBBA456D7FAD8156D6C9EF /* Pods_MilkyWayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkyWayApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0177CD2218F22D50054989A /* MilkyWayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkyWayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0177CD5218F22D50054989A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0177CD7218F22D50054989A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0177CD7218F22D50054989A /* MilkyWayDetailDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWayDetailDetailViewController.swift; sourceTree = "<group>"; };
 		E0177CDA218F22D50054989A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0177CDC218F22D60054989A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0177CDF218F22D60054989A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0177CE1218F22D60054989A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0177CE7218F230B0054989A /* MilkyWayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWayTableViewController.swift; sourceTree = "<group>"; };
+		E0177CE9218F25950054989A /* MilkyWayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWayTableViewCell.swift; sourceTree = "<group>"; };
+		E0177CEB218F28C60054989A /* NASAResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAResponse.swift; sourceTree = "<group>"; };
+		E0177CED218F2A2E0054989A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E0711F11218F6DDC00428134 /* MilkyWayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkyWayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0711F13218F6DDC00428134 /* MilkyWayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWayAppUITests.swift; sourceTree = "<group>"; };
+		E0711F15218F6DDC00428134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0711F1B218F75F600428134 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E0177CCF218F22D50054989A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1834C4BD96A558FF893C9BEB /* Pods_MilkyWayApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0711F0E218F6DDC00428134 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,11 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB58BA52E02373E2682C6F33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2FBBA456D7FAD8156D6C9EF /* Pods_MilkyWayApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3AC70CB5652E63DDBA1D0D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36B01196F35535AD2AD095AF /* Pods-MilkyWayApp.debug.xcconfig */,
+				4F59BBC3F608D81BF5837347 /* Pods-MilkyWayApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E0177CC9218F22D50054989A = {
 			isa = PBXGroup;
 			children = (
 				E0177CD4218F22D50054989A /* MilkyWayApp */,
+				E0711F12218F6DDC00428134 /* MilkyWayAppUITests */,
 				E0177CD3218F22D50054989A /* Products */,
+				C3AC70CB5652E63DDBA1D0D4 /* Pods */,
+				AB58BA52E02373E2682C6F33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				E0177CD2218F22D50054989A /* MilkyWayApp.app */,
+				E0711F11218F6DDC00428134 /* MilkyWayAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,13 +112,27 @@
 			isa = PBXGroup;
 			children = (
 				E0177CD5218F22D50054989A /* AppDelegate.swift */,
-				E0177CD7218F22D50054989A /* ViewController.swift */,
+				E0177CD7218F22D50054989A /* MilkyWayDetailDetailViewController.swift */,
 				E0177CD9218F22D50054989A /* Main.storyboard */,
 				E0177CDC218F22D60054989A /* Assets.xcassets */,
 				E0177CDE218F22D60054989A /* LaunchScreen.storyboard */,
 				E0177CE1218F22D60054989A /* Info.plist */,
+				E0177CE7218F230B0054989A /* MilkyWayTableViewController.swift */,
+				E0177CE9218F25950054989A /* MilkyWayTableViewCell.swift */,
+				E0177CEB218F28C60054989A /* NASAResponse.swift */,
+				E0177CED218F2A2E0054989A /* NetworkManager.swift */,
+				E0711F1B218F75F600428134 /* Reachability.swift */,
 			);
 			path = MilkyWayApp;
+			sourceTree = "<group>";
+		};
+		E0711F12218F6DDC00428134 /* MilkyWayAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0711F13218F6DDC00428134 /* MilkyWayAppUITests.swift */,
+				E0711F15218F6DDC00428134 /* Info.plist */,
+			);
+			path = MilkyWayAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0177CE4218F22D60054989A /* Build configuration list for PBXNativeTarget "MilkyWayApp" */;
 			buildPhases = (
+				2569765B866D939EA2E78ED5 /* [CP] Check Pods Manifest.lock */,
 				E0177CCE218F22D50054989A /* Sources */,
 				E0177CCF218F22D50054989A /* Frameworks */,
 				E0177CD0218F22D50054989A /* Resources */,
+				443757828792288BE03E6616 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -83,6 +156,24 @@
 			productName = MilkyWayApp;
 			productReference = E0177CD2218F22D50054989A /* MilkyWayApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E0711F10218F6DDC00428134 /* MilkyWayAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0711F1A218F6DDC00428134 /* Build configuration list for PBXNativeTarget "MilkyWayAppUITests" */;
+			buildPhases = (
+				E0711F0D218F6DDC00428134 /* Sources */,
+				E0711F0E218F6DDC00428134 /* Frameworks */,
+				E0711F0F218F6DDC00428134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0711F17218F6DDC00428134 /* PBXTargetDependency */,
+			);
+			name = MilkyWayAppUITests;
+			productName = MilkyWayAppUITests;
+			productReference = E0711F11218F6DDC00428134 /* MilkyWayAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +187,10 @@
 				TargetAttributes = {
 					E0177CD1218F22D50054989A = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					E0711F10218F6DDC00428134 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E0177CD1218F22D50054989A;
 					};
 				};
 			};
@@ -113,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				E0177CD1218F22D50054989A /* MilkyWayApp */,
+				E0711F10218F6DDC00428134 /* MilkyWayAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,19 +224,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0711F0F218F6DDC00428134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2569765B866D939EA2E78ED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilkyWayApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		443757828792288BE03E6616 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MilkyWayApp/Pods-MilkyWayApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkyWayApp/Pods-MilkyWayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0177CCE218F22D50054989A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0177CD8218F22D50054989A /* ViewController.swift in Sources */,
+				E0711F1C218F75F600428134 /* Reachability.swift in Sources */,
+				E0177CEE218F2A2E0054989A /* NetworkManager.swift in Sources */,
+				E0177CEA218F25950054989A /* MilkyWayTableViewCell.swift in Sources */,
+				E0177CD8218F22D50054989A /* MilkyWayDetailDetailViewController.swift in Sources */,
+				E0177CE8218F230B0054989A /* MilkyWayTableViewController.swift in Sources */,
 				E0177CD6218F22D50054989A /* AppDelegate.swift in Sources */,
+				E0177CEC218F28C60054989A /* NASAResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0711F0D218F6DDC00428134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0711F14218F6DDC00428134 /* MilkyWayAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0711F17218F6DDC00428134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0177CD1218F22D50054989A /* MilkyWayApp */;
+			targetProxy = E0711F16218F6DDC00428134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E0177CD9218F22D50054989A /* Main.storyboard */ = {
@@ -280,11 +453,13 @@
 		};
 		E0177CE5218F22D60054989A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B01196F35535AD2AD095AF /* Pods-MilkyWayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72KYVGH2JW;
 				INFOPLIST_FILE = MilkyWayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +473,13 @@
 		};
 		E0177CE6218F22D60054989A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F59BBC3F608D81BF5837347 /* Pods-MilkyWayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72KYVGH2JW;
 				INFOPLIST_FILE = MilkyWayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +488,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0711F18218F6DDC00428134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72KYVGH2JW;
+				INFOPLIST_FILE = MilkyWayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ET.MilkyWayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MilkyWayApp;
+			};
+			name = Debug;
+		};
+		E0711F19218F6DDC00428134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72KYVGH2JW;
+				INFOPLIST_FILE = MilkyWayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ET.MilkyWayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MilkyWayApp;
 			};
 			name = Release;
 		};
@@ -331,6 +546,15 @@
 			buildConfigurations = (
 				E0177CE5218F22D60054989A /* Debug */,
 				E0177CE6218F22D60054989A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0711F1A218F6DDC00428134 /* Build configuration list for PBXNativeTarget "MilkyWayAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0711F18218F6DDC00428134 /* Debug */,
+				E0711F19218F6DDC00428134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
