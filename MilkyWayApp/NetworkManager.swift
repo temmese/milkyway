@@ -37,7 +37,7 @@ class NetworkManager {
     }
     
     func parseResponse(_ nasa_data: NASAJson) -> [MilkyWayData] {
-        var milkyWayArray = [MilkyWayData]()        
+        var milkyWayArray = [MilkyWayData]()
         for item in nasa_data.collection!.items {
             for link in item!.links {
                 let title = item!.data[0]!.title!

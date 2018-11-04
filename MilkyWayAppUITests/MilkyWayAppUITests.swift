@@ -38,10 +38,9 @@ class MilkyWayAppUITests: XCTestCase {
         let cell = tableview.cells.element(boundBy: 0)
         cell.tap()
         
-        let titleLabel = app.staticTexts["detailTitleId"]
-        waitForElementToAppear(titleLabel)
-
-        XCTAssertFalse(titleLabel.exists)
+        let volleyballLabel = app.staticTexts["A monster in the Milky Way"]
+        waitForElementToAppear(volleyballLabel)
+        XCTAssert(volleyballLabel.exists)
     }
     
     func waitForElementToAppear(_ element: XCUIElement) {
